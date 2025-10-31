@@ -1,0 +1,53 @@
+.rouge{
+color: red;
+}
+.centrer{
+    text-align: center;
+}
+.capitale{
+    text-transform: capitalize;
+}
+.taille1{
+    font-size: 60px;
+}
+.taille2{
+    font-size: 40px;
+}
+.brodure{
+    border: 2px solid blue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+.icone{
+
+    margin-right: auto;
+    display: block;
+}
+.icone:hover{
+    border: 20px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.table{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+.table th, .table td{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+}
+.table tr:nth-child(2n+1){
+    background-color: grey;
+}
